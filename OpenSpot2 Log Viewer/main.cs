@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static OpenSpot2_Log_Viewer.openspot;
+using static OpenSpot2_Log_Viewer.radioid;
 
 namespace OpenSpot2_Log_Viewer
 {
