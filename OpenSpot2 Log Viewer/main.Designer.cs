@@ -210,17 +210,19 @@
             this.txtRadioIDName.Name = "txtRadioIDName";
             this.txtRadioIDName.Size = new System.Drawing.Size(438, 31);
             this.txtRadioIDName.TabIndex = 7;
+            this.txtRadioIDName.TextChanged += new System.EventHandler(this.txtRadioIDName_TextChanged);
             // 
             // txtRadioIDCallsign
             // 
-            this.txtRadioIDCallsign.Location = new System.Drawing.Point(137, 151);
+            this.txtRadioIDCallsign.Location = new System.Drawing.Point(137, 145);
             this.txtRadioIDCallsign.Name = "txtRadioIDCallsign";
             this.txtRadioIDCallsign.Size = new System.Drawing.Size(438, 31);
             this.txtRadioIDCallsign.TabIndex = 8;
+            this.txtRadioIDCallsign.TextChanged += new System.EventHandler(this.txtRadioIDCallsign_TextChanged);
             // 
             // txtRadioIDLocation
             // 
-            this.txtRadioIDLocation.Location = new System.Drawing.Point(137, 189);
+            this.txtRadioIDLocation.Location = new System.Drawing.Point(137, 192);
             this.txtRadioIDLocation.Name = "txtRadioIDLocation";
             this.txtRadioIDLocation.Size = new System.Drawing.Size(438, 31);
             this.txtRadioIDLocation.TabIndex = 9;

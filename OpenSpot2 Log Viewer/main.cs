@@ -35,5 +35,15 @@ namespace OpenSpot2_Log_Viewer
             frmOpenspotSettigs frm = new frmOpenspotSettigs();
             frm.ShowDialog();
         }
+
+        private void txtRadioIDCallsign_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRadioIDName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
