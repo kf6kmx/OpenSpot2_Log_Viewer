@@ -33,7 +33,6 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deviceIPAddressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.devicePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -58,36 +57,30 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 38);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 44);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // setupToolStripMenuItem
             // 
             this.setupToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deviceIPAddressToolStripMenuItem,
-            this.devicePasswordToolStripMenuItem});
+            this.deviceIPAddressToolStripMenuItem});
             this.setupToolStripMenuItem.Name = "setupToolStripMenuItem";
-            this.setupToolStripMenuItem.Size = new System.Drawing.Size(96, 36);
+            this.setupToolStripMenuItem.Size = new System.Drawing.Size(96, 38);
             this.setupToolStripMenuItem.Text = "Setup";
             // 
             // deviceIPAddressToolStripMenuItem
             // 
             this.deviceIPAddressToolStripMenuItem.Name = "deviceIPAddressToolStripMenuItem";
-            this.deviceIPAddressToolStripMenuItem.Size = new System.Drawing.Size(336, 44);
-            this.deviceIPAddressToolStripMenuItem.Text = "Device IP Address";
-            // 
-            // devicePasswordToolStripMenuItem
-            // 
-            this.devicePasswordToolStripMenuItem.Name = "devicePasswordToolStripMenuItem";
-            this.devicePasswordToolStripMenuItem.Size = new System.Drawing.Size(336, 44);
-            this.devicePasswordToolStripMenuItem.Text = "Device Password";
+            this.deviceIPAddressToolStripMenuItem.Size = new System.Drawing.Size(361, 44);
+            this.deviceIPAddressToolStripMenuItem.Text = "OpenSpot2 Settings";
+            this.deviceIPAddressToolStripMenuItem.Click += new System.EventHandler(this.deviceIPAddressToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -100,7 +93,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(212, 44);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -130,7 +123,6 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem setupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deviceIPAddressToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem devicePasswordToolStripMenuItem;
     }
 }
 

@@ -24,7 +24,14 @@ namespace OpenSpot2_Log_Viewer
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmAbout frm = new frmAbout();
+            frm.ShowDialog();
+        }
 
+        private void deviceIPAddressToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOpenspotSettigs frm = new frmOpenspotSettigs();
+            frm.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace OpenSpot2_Log_Viewer
 {
-    partial class about
+    partial class frmAbout
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@
             this.textBox1.Location = new System.Drawing.Point(129, 198);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1084, 154);
+            this.textBox1.Size = new System.Drawing.Size(1084, 246);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "OpenSpot2\r\nLive Log Viewer";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -57,7 +57,7 @@
             this.bt_close.UseVisualStyleBackColor = true;
             this.bt_close.Click += new System.EventHandler(this.bt_close_Click);
             // 
-            // about
+            // frmAbout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -65,7 +65,7 @@
             this.ClientSize = new System.Drawing.Size(1295, 838);
             this.Controls.Add(this.bt_close);
             this.Controls.Add(this.textBox1);
-            this.Name = "about";
+            this.Name = "frmAbout";
             this.Text = "About";
             this.ResumeLayout(false);
             this.PerformLayout();

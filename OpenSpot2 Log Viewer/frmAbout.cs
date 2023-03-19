@@ -3,11 +3,12 @@
     using System;
     using System.Windows.Forms;
 
-    public partial class about : Form
+    public partial class frmAbout : Form
     {
-        public about()
+        public frmAbout()
         {
             this.InitializeComponent();
+            this.textBox1.Text = this.textBox1.Text + Environment.NewLine + Application.ProductVersion;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
