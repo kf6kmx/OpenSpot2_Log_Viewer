@@ -45,5 +45,10 @@ namespace OpenSpot2_Log_Viewer
         {
 
         }
+
+        private void btDMRLookup_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Lookup data for ID" + Environment.NewLine + this.txtDMRLookupID.Text);
+        }
     }
 }
